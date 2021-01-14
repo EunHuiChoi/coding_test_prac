@@ -4,6 +4,7 @@ def solution(phone_book):
     temp_list = []
     for i in phone_book:
         new_list.append(list(i))
+    print(new_list)
     for j in range(len(new_list)-1):
         check_tuple = tuple(zip(new_list[j], new_list[j + 1]))
         temp_list.clear()
